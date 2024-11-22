@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disney+ Banner</title>
+    <style>
+        h1 {
+            color: white;
+            font-size: 2em;
+            margin: 0;
+        }
+
+        .banner-table {
+            background-color: #040404;
+            color: white;
+            width: 600px;
+            height: 300px;
+            margin: 20px auto;
+            padding: 20px;
+            box-shadow: 5px 5px 20px black;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        .banner-table th {
+            background: #040404;
+            padding: 10px;
+        }
+
+        .banner-table p {
+            color: #cccccc;
+            font-size: 1em;
+            margin: 5px 0;
+        }
+
+        .banner-button {
+            background-color: #00a8e1;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 10px;
+            font-size: 1em;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            width: 80%;
+            margin: 5px;
+        }
+
+        .banner-button:hover {
+            background-color: #008bb5;
+        }
+    </style>
+</head>
+<body>
+    <table class="banner-table">
+            <tr>
+                <td  class="logo-cell">
+                <th colspan="2">
+                    <img src="./img/Disney+_LOGO_Glow_231220.png" alt="Disney+" width="150">
+                </th>
+            </td>
+            </tr>
+            <tr>
+                <th colspan="2">
+                    <h1>Hay un nuevo Disney+</h1>
+                </th>
+            </tr>
+        <tbody>
+            <tr>
+                <td colspan="2">
+                    <p>donde todo se encuentra</p>
+                </td>
+            </tr>
+            <tr>
+                <td><button class="banner-button">Disney+ Estándar</button></td>
+                <td><button class="banner-button">Disney+ Premium</button></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
